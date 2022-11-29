@@ -251,3 +251,115 @@ nav .nav-item a:not(.btn) {
     padding: 1em 3em;
 }
 /* Header */
+
+/* footer */
+footer {
+    background: #284265;
+}
+
+footer .footer-row, footer .footer-row ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer .footer-row {
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+footer .footer-top {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #c7c7cc;
+}
+footer .footer-top p {
+    font-weight: 600;
+    line-height: 150%;
+    color: #fff;
+}
+.footer-top a[data-v-3b77e288] {
+    color: #c7c7cc;
+}
+footer dd {
+    line-height: 25px;
+}
+footer .footer-row, footer .footer-row ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer .copyright {
+    color: #c7c7cc;
+}
+footer .hr {
+    width: 100%;
+    border: .5px solid hsla(0,0%,100%,.13);
+}
+
+footer .hr {
+    margin-top: 1.2rem!important;
+    margin-bottom: 1.2rem!important;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+
+
+footer .footer-bottom img {
+    filter: grayscale(1) invert(1) brightness(100);
+}
+
+footer .logo {
+    width: 70%;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+dd {
+    margin-bottom: .5rem;
+    margin-left: 0;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.footer-top a[data-v-3b77e288] {
+    color: #c7c7cc;
+    text-decoration: none;
+}
+.footer-top .mail[data-v-3b77e288] {
+    text-decoration: underline;
+}
+footer .footer-top img {
+    margin-right: 20px;
+}
+footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.7rem!important;
+    padding-bottom: 1.7rem!important;
+}
+/* footer */
