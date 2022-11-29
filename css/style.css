@@ -363,3 +363,35 @@ footer .container {
     padding-bottom: 1.7rem!important;
 }
 /* footer */
+
+/* container */
+.container {
+    margin: 0 auto;
+    padding: 2rem 1.5rem!important;
+    width: 90%;
+    max-width: 90%;
+    min-width: 90%;
+}
+
+
+.container {
+    max-width: 425px;
+}
+
+.container, .container-2xl, .container-3xl, .container-4xl, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xs {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* container */
