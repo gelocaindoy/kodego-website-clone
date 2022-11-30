@@ -3,17 +3,17 @@ class MyHeader extends HTMLElement {
         this.innerHTML = `
         <div id="nav">
                 <nav class="navbar navbar-light navbar-expand">
-                <div class="container"><a href="./" aria-current="page" class="navbar-brand nuxt-link-exact-active nuxt-link-active" target="_self">
+                <div class="container"><a href="../" aria-current="page" class="navbar-brand nuxt-link-exact-active nuxt-link-active" target="_self">
                     <img src="https://dy9hpnbyn8tl0.cloudfront.net/kodego-large.svg" alt="KodeGo" class="logo"></a>
                                 <ul class="navbar-nav">
                                 <li class="nav-item"><a href="#" class="nav-link" target="_self">About Us</a></li>
                                 <li class="nav-item"><a href="#" class="nav-link" target="_self">How It Works</a></li>
-                                <li class="nav-item"><a href="./courses" class="nav-link" target="_self">Courses</a></li>
-                                <li class="nav-item"><a href="./partners" class="nav-link" target="_self">Partners</a></li>
-                                <li class="nav-item"><a href="./blogs" class="nav-link" target="_self">Blog</a></li>
-                                <li class="nav-item"><a href="./careers" class="nav-link" target="_self">Careers</a></li>
+                                <li class="nav-item"><a href="../courses" class="nav-link" target="_self">Courses</a></li>
+                                <li class="nav-item"><a href="../partners" class="nav-link" target="_self">Partners</a></li>
+                                <li class="nav-item"><a href="../blogs" class="nav-link" target="_self">Blog</a></li>
+                                <li class="nav-item"><a href="../careers" class="nav-link" target="_self">Careers</a></li>
                                 <li class="nav-item"><a href="#" class="nav-link" target="_self">FAQ</a></li>
-                                <li class="nav-item auth-links"><a href="./signin" class="btn fw-700 text-success px-4 py-0" role="button">Sign In</a>
+                                <li class="nav-item auth-links"><a href="../signin" class="btn fw-700 text-success px-4 py-0" role="button">Sign In</a>
                                     <a role="button" class="btn btn-success text-white fw-700 px-4 py-0 text-nowrap">Apply Now</a></li>
                                 </ul>
                         </div>
