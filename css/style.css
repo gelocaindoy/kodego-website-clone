@@ -481,3 +481,74 @@ h2 {
 }
 
 /* careers */
+
+/* tabpanel */
+.justify-content-center {
+    justify-content: center!important;
+}
+
+.d-flex {
+    display: flex!important;
+}
+[role='tablist'] {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+[role='tablist'][aria-orientation='vertical'] {
+    flex-direction: column;
+}
+[role='tab'],
+[role='tabpanel'] {
+    border: 0.0625rem solid #ccc;
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
+    margin-right: 0.625rem;
+    margin-left: 0;
+    padding: 0.4375rem 0.625rem;
+    
+}
+[role='tab'] {
+    float: left;
+    cursor: pointer;
+}
+[dir='rtl'] [role='tab'] {
+    margin-right: 0;
+    margin-left: 0.625rem;
+}
+[role='tabpanel'] {
+    width: 100%;
+    clear: both;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+[role='tab'][aria-selected='true'] {
+    background: #284265!important;
+    border-color: #284265!important;
+    font-weight: bold;
+    border-left-width: 0.25rem;
+}
+[role='tab'][aria-disabled='true'] {
+    opacity: 0.65;
+    font-weight: normal;
+    cursor: not-allowed;
+}
+[aria-orientation='vertical'] [role='tab'] {
+    float: none;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    background-size: 1.0625rem;
+    background-repeat: no-repeat;
+    background-position: right 0.625rem top 50%;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='17' height='10' viewBox='0 0 17 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.023L8.488 8 16 1' stroke-width='1' stroke='%23434143' fill='none' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background: #284265!important;
+    border-color: #284265!important;
+    padding: 20px 42px;
+    border-radius: .25rem;
+}
+[aria-orientation='vertical'] [role='tab'][aria-selected='true'] {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='17' height='10' viewBox='0 0 17 10' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 8L8.488 1 16 8' stroke-width='1' stroke='%23434143' fill='none' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+/* tabpanel */
