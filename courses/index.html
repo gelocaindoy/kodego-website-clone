@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Courses - KodeGo</title>
     <script type="text/javascript" src="../js/main.js" ></script>
+            <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/a11y-dark.min.css"
+        />
+        <script src="https://unpkg.com/aria-tablist@latest"></script>
     <my-header></my-header>
 </head>
 <body>
@@ -18,10 +23,25 @@
                     <h2 data-v-9bada088="" class="page-header">Courses</h2>
                     <p data-v-9bada088="" class="subtitle">Build your tech career.</p>
                     <div data-v-9bada088="" class="d-flex justify-content-center"></div>
+                    <!-- start tabpanel -->
+                            <div class="tile" id="example-4">
+                                <div id="example-4-tabs" aria-orientation="vertical" aria-multiselectable="true">
+                                    <div aria-controls="example-4-panel-2" aria-selected="true"></div>
+                                    <div id="example-4-panel-2">
+                                        card image here
+                                    </div>
+                                </div>
+                                <script>
+                                    AriaTablist(document.getElementById('example-4-tabs'), {
+                                        deletable: true,
+                                        focusableTabs: true
+                                    });
+                                </script>
+                                </div><!-- end tabpanel -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
 </body>
 <my-footer></my-footer>
 </html>
