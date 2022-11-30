@@ -3,7 +3,7 @@ class MyHeader extends HTMLElement {
         this.innerHTML = `
         <div id="nav">
                 <nav class="navbar navbar-light navbar-expand">
-                <div class="container"><a href="/" aria-current="page" class="navbar-brand nuxt-link-exact-active nuxt-link-active" target="_self">
+                <div class="container"><a href="./" aria-current="page" class="navbar-brand nuxt-link-exact-active nuxt-link-active" target="_self">
                     <img src="https://dy9hpnbyn8tl0.cloudfront.net/kodego-large.svg" alt="KodeGo" class="logo"></a>
                                 <ul class="navbar-nav">
                                 <li class="nav-item"><a href="#" class="nav-link" target="_self">About Us</a></li>
@@ -60,15 +60,15 @@ class Myfooter extends HTMLElement {
                                                         <dl data-v-3b77e288="">
                                                             <dd data-v-3b77e288=""><a data-v-3b77e288="" href="/#about-us" class="">About Us</a></dd>
                                                             <dd data-v-3b77e288=""><a data-v-3b77e288="" href="/#how-it-works" class="">How It works</a></dd>
-                                                            <dd data-v-3b77e288=""><a data-v-3b77e288="" href="/courses" class="">Courses</a></dd>
-                                                            <dd data-v-3b77e288=""><a data-v-3b77e288="" href="/careers" class="">Careers</a></dd>
+                                                            <dd data-v-3b77e288=""><a data-v-3b77e288="" href="./courses" class="">Courses</a></dd>
+                                                            <dd data-v-3b77e288=""><a data-v-3b77e288="" href="./careers" class="">Careers</a></dd>
                                                         </dl>
                                                         </div>
                                                             <div data-v-3b77e288="" class="col">
                                                                 <dl data-v-3b77e288="">
-                                                                    <dd data-v-3b77e288=""><a data-v-3b77e288="" href="/partners" class="">Partners</a></dd>
-                                                                    <dd data-v-3b77e288=""><a data-v-3b77e288="" href="/terms-and-conditions" class="">Terms and Conditions</a></dd>
-                                                                    <dd data-v-3b77e288=""><a data-v-3b77e288="" href="https://917ventures.com/privacy" target="_blank">Privacy Policy</a></dd>
+                                                                    <dd data-v-3b77e288=""><a data-v-3b77e288="" href="./partners" class="">Partners</a></dd>
+                                                                    <dd data-v-3b77e288=""><a data-v-3b77e288="" href="#" class="">Terms and Conditions</a></dd>
+                                                                    <dd data-v-3b77e288=""><a data-v-3b77e288="" href="#" target="_blank">Privacy Policy</a></dd>
                                                                 </dl>
                                                             </div>
                                                         </div>
@@ -85,7 +85,7 @@ class Myfooter extends HTMLElement {
                                                                         </div>
                                                                     </div>
                                                                     <div data-v-3b77e288="" class="hr p-0"></div>
-                                                                    <div data-v-3b77e288="" class="footer-row footer-bottom"><a data-v-3b77e288="" href="/" class="logo-holder">
+                                                                    <div data-v-3b77e288="" class="footer-row footer-bottom"><a data-v-3b77e288="" href="./" class="logo-holder">
                                                                         <img data-v-3b77e288="" src="https://dy9hpnbyn8tl0.cloudfront.net/kodego-large.svg" alt="KodeGo" class="logo"></a>
                                                                         <div data-v-3b77e288="" class="d-flex align-items-center justify-content-end">
                                                                             <div data-v-3b77e288="" class="font-size-14 copyright">© 2022 KodeGo All Rights Reserved
